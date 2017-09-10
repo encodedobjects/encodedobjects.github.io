@@ -1,0 +1,7 @@
+---
+layout: page
+title: "Project 1"
+date: 2017-09-08 22:14:40 -0500
+categories:
+---
+To add new posts, simply add a file in the `_projects` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
