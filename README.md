@@ -1,13 +1,12 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Encoded Objects Website
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+Build with [Gatsby](https://www.gatsbyjs.org/docs/) and [React](https://reactjs.org/).
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Installation
 
-## Deploy
+`npm install`
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+## Running
+
+`npm run dev` - build the development version of the site\
+`npm run deploy` - rebuild the site and push it to the GitHub pages branch

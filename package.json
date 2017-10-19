@@ -22,6 +22,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
+    "predeploy": "rm -rf public && npm run build",
     "deploy": "gh-pages --dist public"
   },
   "devDependencies": {
