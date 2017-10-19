@@ -1,21 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
 
-// const IndexPage = () => (
-//   <div className="container">
-//     <section className="section">
-//       <div className="container">
-//         <h1 className="title">Hello World</h1>
-//         <p className="subtitle">
-//           My first website with <strong>Bulma</strong>!
-//         </p>
-//       </div>
-//     </section>
-//   </div>
-// );
-
-// export default IndexPage;
-
 export default function IndexPage(props) {
   const projects = props.data.allMarkdownRemark.edges;
 
@@ -25,10 +10,11 @@ export default function IndexPage(props) {
         <div className="columns">
           {projects.map(project => {
             const fm = project.node.frontmatter;
+            const path = project.node.fields.slug;
             const sharpImage = fm.thumbnail.childImageSharp;
             return (
               <div className="column is-one-third">
-                <Link to={fm.path}>
+                <Link to={path}>
                   <figure style={{ textAlign: "center" }}>
                     <img
                       src={sharpImage.resolutions.src}
@@ -54,6 +40,9 @@ export const query = graphql`
     ) {
       edges {
         node {
+          fields {
+            slug
+          }
           frontmatter {
             title
             thumbnail {
@@ -64,7 +53,6 @@ export const query = graphql`
                 }
               }
             }
-            path
             date(formatString: "MM/DD/YY")
           }
         }
