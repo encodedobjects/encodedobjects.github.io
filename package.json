@@ -23,7 +23,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "predeploy": "rm -rf public && npm run build",
-    "deploy": "gh-pages --dist public"
+    "deploy": "gh-pages --dist public --branch master"
   },
   "devDependencies": {
     "gatsby-plugin-sass": "^1.0.12",
