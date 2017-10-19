@@ -1,0 +1,9 @@
+@import "~mdi/css/materialdesignicons.min.css";
+
+// Bulma customization
+@import "~bulma/sass/utilities/initial-variables";
+$family-primary: "Aleo", sans-serif;
+$navbar-item-hover-background-color: transparent;
+@import "~bulma";
+
+@import "navbar";

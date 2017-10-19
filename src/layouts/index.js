@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import Navbar from "./navbar";
+import Navbar from "../components/navbar.js";
 
 import "../fonts/aleo.css";
-import "./index.scss";
+import "./style/index.scss";
 
 const Template = ({ children }) => (
   <div>

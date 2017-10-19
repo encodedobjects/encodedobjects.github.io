@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 
+import MobileNavbar from "./mobile-navbar";
+
 export default class Navbar extends React.Component {
   constructor() {
     super();
@@ -32,16 +34,16 @@ export default class Navbar extends React.Component {
             <span className="logo-bracket">{"}"}</span>
           </Link>
 
-          <div
-            className="navbar-item mobile-menu-button is-hidden-desktop"
-            onClick={this.toggleMobileMenu}
-          >
-            <span className="icon">
-              <i
-                className={`mdi ${isMobileMenuOpen ? "mdi-close" : "mdi-menu"}`}
-              />
-            </span>
-          </div>
+          {!isMobileMenuOpen && (
+            <div
+              className="navbar-item is-hidden-desktop mobile-menu-button"
+              onClick={this.toggleMobileMenu}
+            >
+              <span className="icon">
+                <i className="mdi mdi-menu" />
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="navbar-menu">
@@ -63,24 +65,7 @@ export default class Navbar extends React.Component {
           </div>
         </div>
 
-        <div
-          className={`navbar-menu mobile-menu is-hidden-desktop ${isMobileMenuOpen
-            ? "is-active"
-            : "is-hidden"}`}
-        >
-          <Link to="/" exact className="navbar-item" activeClassName="active">
-            Work
-          </Link>
-          <Link to="/posts" className="navbar-item" activeClassName="active">
-            Posts
-          </Link>
-          <Link to="/about" className="navbar-item" activeClassName="active">
-            About
-          </Link>
-          <a className="navbar-item" href="https://github.com/encodedobjects">
-            GitHub
-          </a>
-        </div>
+        {isMobileMenuOpen && <MobileNavbar closeMenu={this.toggleMobileMenu} />}
       </nav>
     );
   }
