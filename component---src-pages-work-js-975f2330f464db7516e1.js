@@ -1,0 +1,2 @@
+webpackJsonp([23899280101116],{191:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=l(2),a=u(n),r=l(42),d=(u(r),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Work"),a.default.createElement("img",{src:"",alt:"",width:"200",height:"200"}))});t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-work-js-975f2330f464db7516e1.js.map
