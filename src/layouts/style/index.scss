@@ -5,5 +5,15 @@
 $family-primary: "Aleo", sans-serif;
 $navbar-item-hover-background-color: transparent;
 @import "~bulma";
+html {
+  // Override bulma so that the body can control overflow
+  overflow: initial;
+}
 
 @import "navbar";
+
+body.mobile-menu-open {
+  @include touch {
+    overflow-y: hidden;
+  }
+}

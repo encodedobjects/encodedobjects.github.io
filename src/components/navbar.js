@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import { VelocityTransitionGroup } from "velocity-react";
 
 import MobileNavbar from "./mobile-navbar";
 
@@ -14,9 +15,14 @@ export default class Navbar extends React.Component {
   }
 
   toggleMobileMenu() {
-    this.setState(prevState => ({
-      isMobileMenuOpen: !this.state.isMobileMenuOpen
-    }));
+    this.setState(prevState => {
+      const newState = !this.state.isMobileMenuOpen;
+      document.body.classList.add("mobile-menu-open");
+      newState
+        ? document.body.classList.add("mobile-menu-open")
+        : document.body.classList.remove("mobile-menu-open");
+      return { isMobileMenuOpen: newState };
+    });
   }
 
   render() {
@@ -65,7 +71,14 @@ export default class Navbar extends React.Component {
           </div>
         </div>
 
-        {isMobileMenuOpen && <MobileNavbar closeMenu={this.toggleMobileMenu} />}
+        <VelocityTransitionGroup
+          enter={{ animation: { opacity: 1 }, duration: 200, easing: "easeIn" }}
+          leave={{ animation: { opacity: 0 }, duration: 200, easing: "easeIn" }}
+        >
+          {isMobileMenuOpen && (
+            <MobileNavbar closeMenu={this.toggleMobileMenu} />
+          )}
+        </VelocityTransitionGroup>
       </nav>
     );
   }
