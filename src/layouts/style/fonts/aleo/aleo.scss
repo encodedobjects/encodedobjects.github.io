@@ -1,0 +1,62 @@
+// Note: update the SASS plugin with https://github.com/bholloway/resolve-url-loader to fix the path
+// awkwardness where everything needs to be relative to index.scss
+
+@font-face {
+  $path: "./fonts/aleo/regular";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-regular-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-regular-webfont.woff") format("woff"),
+    url("#{$path}/aleo-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  $path: "./fonts/aleo/regular-italic";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-italic-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-italic-webfont.woff") format("woff"),
+    url("#{$path}/aleo-italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  $path: "./fonts/aleo/light";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-light-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-light-webfont.woff") format("woff"),
+    url("#{$path}/aleo-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  $path: "./fonts/aleo/light-italic";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-lightitalic-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-lightitalic-webfont.woff") format("woff"),
+    url("#{$path}/aleo-lightitalic-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  $path: "./fonts/aleo/bold";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-bold-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-bold-webfont.woff") format("woff"),
+    url("#{$path}/aleo-bold-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  $path: "./fonts/aleo/bold-italic";
+  font-family: "Aleo";
+  src: url("#{$path}/aleo-bolditalic-webfont.woff2") format("woff2"),
+    url("#{$path}/aleo-bolditalic-webfont.woff") format("woff"),
+    url("#{$path}/aleo-bolditalic-webfont.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
