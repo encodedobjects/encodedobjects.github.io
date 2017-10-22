@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import Navbar from "../components/navbar.js";
 
-import "../fonts/aleo.css";
 import "./style/index.scss";
+import "typeface-inconsolata";
 
 const Template = ({ children }) => (
   <div>

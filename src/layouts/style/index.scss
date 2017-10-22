@@ -2,7 +2,9 @@
 
 // Bulma customization
 @import "~bulma/sass/utilities/initial-variables";
-$family-primary: "Aleo", sans-serif;
+$family-monospace: "Inconsolata", monospace;
+$family-serif: "Aleo", sans-serif;
+$family-primary: $family-serif;
 $navbar-item-hover-background-color: transparent;
 @import "~bulma";
 html {
@@ -10,7 +12,13 @@ html {
   overflow: initial;
 }
 
+@import "fonts/fonts";
+p {
+  font-family: $family-monospace;
+}
+
 @import "navbar";
+@import "project";
 
 body.mobile-menu-open {
   @include touch {
