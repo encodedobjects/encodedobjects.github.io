@@ -5,14 +5,15 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   if (node.internal.type === "MarkdownRemark") {
     const { createNodeField } = boundActionCreators;
     const slug = createFilePath({ node, getNode, basePath: "pages" });
+    const type = slug.startsWith("/projects") ? "project" : "post";
     createNodeField({ node, name: "slug", value: slug });
+    createNodeField({ node, name: "type", value: type });
   }
 };
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
   return new Promise((resolve, reject) => {
-    const blogPostTemplate = path.resolve(`./src/templates/project.js`);
     graphql(`
       {
         allMarkdownRemark {
@@ -20,6 +21,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
             node {
               fields {
                 slug
+                type
               }
             }
           }
@@ -33,9 +35,14 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
 
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const template =
+          node.fields.type === "project"
+            ? path.resolve(`./src/templates/project.js`)
+            : path.resolve(`./src/templates/post.js`);
+
         createPage({
           path: node.fields.slug,
-          component: blogPostTemplate,
+          component: template,
           context: {} // additional data can be passed via context
         });
       });

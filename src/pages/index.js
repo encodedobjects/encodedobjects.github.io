@@ -36,7 +36,10 @@ export const query = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { ne: true } } }
+      filter: {
+        fields: { type: { eq: "project" } }
+        frontmatter: { draft: { eq: false } }
+      }
     ) {
       edges {
         node {
