@@ -4,6 +4,7 @@ subtitle: "Digital print on paper, 2.5’ x 4’ diameter, 2017"
 thumbnail: "./mockup.jpg"
 date: "2017-10-15"
 draft: false
+unlisted: false
 ---
 
 ![](mockup.jpg)

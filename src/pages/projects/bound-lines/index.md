@@ -4,6 +4,7 @@ subtitle: "Digital print on paper, 17\" x 22\", 2017"
 thumbnail: "./bound-lines.png"
 date: "2017-09-02"
 draft: false
+unlisted: false
 ---
 
 ![](./bound-lines.png)

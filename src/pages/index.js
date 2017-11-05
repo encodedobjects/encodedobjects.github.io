@@ -38,7 +38,7 @@ export const query = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
         fields: { type: { eq: "project" } }
-        frontmatter: { draft: { eq: false } }
+        frontmatter: { draft: { eq: false }, unlisted: { eq: false } }
       }
     ) {
       edges {

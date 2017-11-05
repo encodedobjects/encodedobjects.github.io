@@ -4,6 +4,7 @@ subtitle: "Single-channel video installation, 2017"
 thumbnail: "./screenshot.png"
 date: "2017-10-15"
 draft: false
+unlisted: false
 ---
 
 <iframe src="https://player.vimeo.com/video/238242365" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
