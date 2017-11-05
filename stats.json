@@ -12,6 +12,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---projects-currents-proposal": [
+      "path---projects-currents-proposal-7864b90280a4ee163194.js",
+      "path---projects-currents-proposal-7864b90280a4ee163194.js.map"
+    ],
     "component---src-templates-project-js": [
       "component---src-templates-project-js-59982a1a43df3202af40.js",
       "component---src-templates-project-js-59982a1a43df3202af40.js.map"
@@ -25,8 +29,8 @@
       "path---posts-e4c67d9963a18b925dbd.js.map"
     ],
     "path---index": [
-      "path---index-61c5daa3bc9160390172.js",
-      "path---index-61c5daa3bc9160390172.js.map"
+      "path---index-9eb5287a6411715577ad.js",
+      "path---index-9eb5287a6411715577ad.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
@@ -53,9 +57,9 @@
       "component---src-templates-post-js-b0017e5958834f55f7a9.js.map"
     ],
     "app": [
-      "app-3dcbb573eae341f6569e.js",
+      "app-3b4ddd9a1227175d391c.js",
       "build-js-styles.css",
-      "app-3dcbb573eae341f6569e.js.map",
+      "app-3b4ddd9a1227175d391c.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
