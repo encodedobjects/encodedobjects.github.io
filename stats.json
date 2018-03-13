@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
+    "path---projects-shades": [
+      "path---projects-shades-b650d389a36ea7116ba1.js",
+      "path---projects-shades-b650d389a36ea7116ba1.js.map"
+    ],
     "path---projects-endless-horizons": [
       "path---projects-endless-horizons-3badfa63508d4fce4066.js",
       "path---projects-endless-horizons-3badfa63508d4fce4066.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-063888cb6ffc7509701c.js",
-      "component---src-pages-index-js-063888cb6ffc7509701c.js.map"
+      "component---src-pages-index-js-d5316bda237d8e584ab1.js",
+      "component---src-pages-index-js-d5316bda237d8e584ab1.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -29,16 +33,16 @@
       "path---posts-e4c67d9963a18b925dbd.js.map"
     ],
     "path---index": [
-      "path---index-9eb5287a6411715577ad.js",
-      "path---index-9eb5287a6411715577ad.js.map"
+      "path---index-7dbf13d74817a8adae56.js",
+      "path---index-7dbf13d74817a8adae56.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
       "path---posts-test-post-bb62ef0c74fc2cc64707.js.map"
     ],
     "path---projects-bound-lines": [
-      "path---projects-bound-lines-d28af7b6935dec66bf1c.js",
-      "path---projects-bound-lines-d28af7b6935dec66bf1c.js.map"
+      "path---projects-bound-lines-9c632cd45ba206c90b54.js",
+      "path---projects-bound-lines-9c632cd45ba206c90b54.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-73d8beecb76a10f0f6a9.js",
@@ -57,9 +61,9 @@
       "component---src-templates-post-js-b0017e5958834f55f7a9.js.map"
     ],
     "app": [
-      "app-3b4ddd9a1227175d391c.js",
+      "app-59ab1f1088b42ec0fe1f.js",
       "build-js-styles.css",
-      "app-3b4ddd9a1227175d391c.js.map",
+      "app-59ab1f1088b42ec0fe1f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
