@@ -7,7 +7,7 @@ export default function IndexPage(props) {
   return (
     <div className="container">
       <section className="section">
-        <div className="columns">
+        <div className="columns is-multiline is-centered">
           {projects.map(project => {
             const fm = project.node.frontmatter;
             const path = project.node.fields.slug;
