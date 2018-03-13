@@ -1,6 +1,6 @@
 ---
 title: "Bound Lines"
-subtitle: "Digital print on paper, 17\" x 22\", 2017"
+subtitle: "Digital print on paper, 17\" x 22\", 2018"
 thumbnail: "./bound-lines.png"
 date: "2017-09-02"
 draft: false
@@ -15,7 +15,7 @@ _Bound Lines_ is a digital print that visualizes 18th century ship logs and reve
 
 # Antillean Vision
 
-_Bounds Lines_ is currently a part of the juried show "Antillean Vision: Maps and the Making of the Caribbean" at the Lowe Art Museum in Florida.
+_Bounds Lines_ is currently in the juried show "Antillean Vision: Maps and the Making of the Caribbean" at the Lowe Art Museum in Florida.
 
 ![](./gallery-view.png)
 
