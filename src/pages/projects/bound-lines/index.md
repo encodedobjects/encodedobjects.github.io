@@ -13,6 +13,15 @@ unlisted: false
 
 _Bound Lines_ is a digital print that visualizes 18th century ship logs and reveals the "footprints" of sailors as they explored the world.
 
+# Antillean Vision
+
+_Bounds Lines_ is currently a part of the juried show "Antillean Vision: Maps and the Making of the Caribbean" at the Lowe Art Museum in Florida.
+
+![](./gallery-view.png)
+
+![](./wall-text.png)
+
+
 # Motivation
 
 We began with the question of whether the data from historic ships' logs could be used as a drawing tool. Much like the exercise of drafting negative space rather than the object itself, we have decided to create images of the world by following the travels of early sailors as they traced their way around the globe - gradually feeling out the forms of our continents. Each individual thread represents the travels of an individual European ship from the 18th or 19th century. The visuals are generated computational from the [CLIWOC](http://pendientedemigracion.ucm.es/info/cliwoc/) dataset.
