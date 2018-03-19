@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---projects-shades": [
-      "path---projects-shades-b1af17a1386540889e9b.js",
-      "path---projects-shades-b1af17a1386540889e9b.js.map"
+      "path---projects-shades-a944bf2e5d2d29340f7d.js",
+      "path---projects-shades-a944bf2e5d2d29340f7d.js.map"
     ],
     "path---projects-endless-horizons": [
       "path---projects-endless-horizons-3badfa63508d4fce4066.js",
@@ -33,16 +33,16 @@
       "path---posts-e4c67d9963a18b925dbd.js.map"
     ],
     "path---index": [
-      "path---index-3073f42b0f83846d62c7.js",
-      "path---index-3073f42b0f83846d62c7.js.map"
+      "path---index-9af22f8e631f60eb69e9.js",
+      "path---index-9af22f8e631f60eb69e9.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
       "path---posts-test-post-bb62ef0c74fc2cc64707.js.map"
     ],
     "path---projects-bound-lines": [
-      "path---projects-bound-lines-e81fb394f926b9cecdf5.js",
-      "path---projects-bound-lines-e81fb394f926b9cecdf5.js.map"
+      "path---projects-bound-lines-686fa7279d3122329e65.js",
+      "path---projects-bound-lines-686fa7279d3122329e65.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-73d8beecb76a10f0f6a9.js",
@@ -61,10 +61,14 @@
       "component---src-templates-post-js-b0017e5958834f55f7a9.js.map"
     ],
     "app": [
-      "app-36629ff8e04cafb59c24.js",
+      "app-d1441d3c73ffd9e1e0fb.js",
       "build-js-styles.css",
-      "app-36629ff8e04cafb59c24.js.map",
+      "app-d1441d3c73ffd9e1e0fb.js.map",
       "build-js-styles.css.map"
+    ],
+    "path---projects-tethered-skies": [
+      "path---projects-tethered-skies-6c61c0d199e37229d7fb.js",
+      "path---projects-tethered-skies-6c61c0d199e37229d7fb.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
