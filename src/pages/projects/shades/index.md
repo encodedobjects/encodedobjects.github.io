@@ -1,8 +1,8 @@
 ---
-title: "Shades: Captured Horizon"
+title: "Shades: Captured Horizons"
 subtitle: "Site-specific Projection, 2018"
 thumbnail: "./shades-day-cycle.png"
-date: "2017-09-02"
+date: "2018-03-12"
 draft: false
 unlisted: false
 ---
@@ -11,7 +11,7 @@ unlisted: false
 
 # Brief
 
-_Shades: Captured Horizons_ is site-specific mapping video installation.
+_Shades: Captured Horizons_ is a site-specific mapping video installation.
 
 
 # Outside the Box

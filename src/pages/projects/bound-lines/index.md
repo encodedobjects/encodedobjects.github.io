@@ -1,8 +1,8 @@
 ---
 title: "Bound Lines"
-subtitle: "Digital print on paper, 17\" x 22\", 2018"
+subtitle: "Digital print on metal, 30\" x 16\", 2018"
 thumbnail: "./bound-lines.png"
-date: "2017-09-02"
+date: "2018-03-11"
 draft: false
 unlisted: false
 ---
@@ -11,7 +11,7 @@ unlisted: false
 
 # Brief
 
-_Bound Lines_ is a digital print that visualizes 18th century ship logs and reveals the "footprints" of sailors as they explored the world.
+_Bound Lines_ is a digital print on metal that visualizes 18th century ship logs and reveals the "footprints" of sailors as they explored the world.
 
 # Antillean Vision
 
