@@ -20,16 +20,22 @@ module.exports = {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1200,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: true
             }
           },
           "gatsby-remark-responsive-iframe",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants"
+          "gatsby-remark-smartypants",
+          "gatsby-remark-copy-images"
         ]
       }
     },
     "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp"
+    {
+      resolve: "gatsby-plugin-sharp",
+      options: {
+        quality: 80
+      }
+    }
   ]
 };
