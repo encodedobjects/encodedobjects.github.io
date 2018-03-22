@@ -15,4 +15,4 @@ _Drift_ is a time-lapse digital print that visualizes the webcam feed of the NDB
 
 # Sources
 
-- [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams)
+* [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams.shtml)

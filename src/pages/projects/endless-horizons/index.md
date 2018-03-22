@@ -19,5 +19,5 @@ With the rapid flow and continuous accumulation of digital images in the cloud, 
 
 # Sources
 
-- [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams)
-- [Code repository](https://github.com/mikewesthad/buoy-analyzer)
+* [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams.shtml)
+* [Code repository](https://github.com/mikewesthad/buoy-analyzer)

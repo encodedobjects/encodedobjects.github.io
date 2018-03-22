@@ -13,7 +13,6 @@ unlisted: false
 
 _Shades: Captured Horizons_ is a site-specific mapping video installation.
 
-
 # Outside the Box
 
 Digital excerpt of the video mapping composition:
@@ -22,4 +21,4 @@ Digital excerpt of the video mapping composition:
 
 # Sources
 
-- [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams)
+* [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams.shtml)
