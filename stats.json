@@ -12,6 +12,10 @@
       "component---src-pages-index-js-d30217d7d0de2b6ab904.js",
       "component---src-pages-index-js-d30217d7d0de2b6ab904.js.map"
     ],
+    "path---cv": [
+      "path---cv-a0e39f21c11f6a62c5ab.js",
+      "path---cv-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -25,16 +29,16 @@
       "component---src-templates-project-js-1dbf7029781e90cc3b32.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-adf919324c3b609073f9.js",
-      "component---src-layouts-index-js-adf919324c3b609073f9.js.map"
+      "component---src-layouts-index-js-d792fdb064e8848424e8.js",
+      "component---src-layouts-index-js-d792fdb064e8848424e8.js.map"
     ],
     "path---posts": [
       "path---posts-b33ad9ed4c5a797e75a2.js",
       "path---posts-b33ad9ed4c5a797e75a2.js.map"
     ],
     "path---index": [
-      "path---index-7f08ef341e562069f215.js",
-      "path---index-7f08ef341e562069f215.js.map"
+      "path---index-61fd32d73f51980ddcaa.js",
+      "path---index-61fd32d73f51980ddcaa.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
@@ -52,6 +56,10 @@
       "commons-480ab81d4c9d9b68eedb.js",
       "commons-480ab81d4c9d9b68eedb.js.map"
     ],
+    "component---src-pages-cv-js": [
+      "component---src-pages-cv-js-7a3cf31fde1f67c5c607.js",
+      "component---src-pages-cv-js-7a3cf31fde1f67c5c607.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -61,9 +69,9 @@
       "component---src-templates-post-js-794c35ba3e87ed742f15.js.map"
     ],
     "app": [
-      "app-d2832976dc9f3c48c631.js",
+      "app-0c2b5d72d9590720d6d8.js",
       "build-js-styles.css",
-      "app-d2832976dc9f3c48c631.js.map",
+      "app-0c2b5d72d9590720d6d8.js.map",
       "build-js-styles.css.map"
     ],
     "path---projects-tethered-skies": [
