@@ -1,9 +1,10 @@
 @import "~mdi/css/materialdesignicons.min.css";
-
 // Bulma customization
 @import "~bulma/sass/utilities/initial-variables";
-$family-monospace: "Inconsolata", monospace;
-$family-serif: "Aleo", sans-serif;
+$family-monospace: "Inconsolata",
+monospace;
+$family-serif: "Aleo",
+sans-serif;
 $family-primary: $family-serif;
 $navbar-item-hover-background-color: transparent;
 @import "~bulma";
@@ -19,7 +20,7 @@ p {
 
 @import "navbar";
 @import "project";
-
+@import "cv";
 body.mobile-menu-open {
   @include touch {
     overflow-y: hidden;

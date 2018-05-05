@@ -15,6 +15,9 @@ export default function MobileNabar({ closeMenu }) {
         <Link to="/posts" className="navbar-item" activeClassName="active">
           Posts
         </Link>
+        <Link to="/cv" className="navbar-item" activeClassName="active">
+          CV
+        </Link>
         <Link to="/about" className="navbar-item" activeClassName="active">
           About
         </Link>
