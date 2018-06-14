@@ -20,6 +20,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-0875c6e47bba26513851.js",
+      "component---src-pages-contact-js-0875c6e47bba26513851.js.map"
+    ],
     "path---projects-currents-proposal": [
       "path---projects-currents-proposal-65f4382bd7520976a610.js",
       "path---projects-currents-proposal-65f4382bd7520976a610.js.map"
@@ -29,16 +33,16 @@
       "component---src-templates-project-js-1dbf7029781e90cc3b32.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-d792fdb064e8848424e8.js",
-      "component---src-layouts-index-js-d792fdb064e8848424e8.js.map"
+      "component---src-layouts-index-js-8acaf572ae31321ea5e0.js",
+      "component---src-layouts-index-js-8acaf572ae31321ea5e0.js.map"
     ],
     "path---posts": [
-      "path---posts-b33ad9ed4c5a797e75a2.js",
-      "path---posts-b33ad9ed4c5a797e75a2.js.map"
+      "path---posts-1f870a9c3471e964795c.js",
+      "path---posts-1f870a9c3471e964795c.js.map"
     ],
     "path---index": [
-      "path---index-61fd32d73f51980ddcaa.js",
-      "path---index-61fd32d73f51980ddcaa.js.map"
+      "path---index-67a4f194e9e91d79616d.js",
+      "path---index-67a4f194e9e91d79616d.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
@@ -53,8 +57,8 @@
       "component---src-pages-404-js-73d8beecb76a10f0f6a9.js.map"
     ],
     "commons": [
-      "commons-480ab81d4c9d9b68eedb.js",
-      "commons-480ab81d4c9d9b68eedb.js.map"
+      "commons-eb453b2a1d840988d88b.js",
+      "commons-eb453b2a1d840988d88b.js.map"
     ],
     "component---src-pages-cv-js": [
       "component---src-pages-cv-js-7a3cf31fde1f67c5c607.js",
@@ -64,14 +68,18 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-templates-post-js": [
       "component---src-templates-post-js-794c35ba3e87ed742f15.js",
       "component---src-templates-post-js-794c35ba3e87ed742f15.js.map"
     ],
     "app": [
-      "app-0c2b5d72d9590720d6d8.js",
+      "app-e111d175504a123ee414.js",
       "build-js-styles.css",
-      "app-0c2b5d72d9590720d6d8.js.map",
+      "app-e111d175504a123ee414.js.map",
       "build-js-styles.css.map"
     ],
     "path---projects-tethered-skies": [
