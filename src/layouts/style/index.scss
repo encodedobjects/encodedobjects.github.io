@@ -21,6 +21,7 @@ p {
 @import "navbar";
 @import "project";
 @import "cv";
+@import "contact";
 body.mobile-menu-open {
   @include touch {
     overflow-y: hidden;

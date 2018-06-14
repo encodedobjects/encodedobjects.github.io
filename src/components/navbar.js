@@ -66,6 +66,13 @@ export default class Navbar extends React.Component {
             <Link to="/about" className="navbar-item" activeClassName="active">
               About
             </Link>
+            <Link
+              to="/contact"
+              className="navbar-item"
+              activeClassName="active"
+            >
+              Contact
+            </Link>
             <a className="navbar-item" href="https://github.com/encodedobjects">
               <span className="icon github-icon">
                 <i className="mdi mdi-github-circle" />

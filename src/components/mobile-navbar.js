@@ -21,9 +21,12 @@ export default function MobileNabar({ closeMenu }) {
         <Link to="/about" className="navbar-item" activeClassName="active">
           About
         </Link>
-        <a className="navbar-item" href="https://github.com/encodedobjects">
+        <Link to="/contact" className="navbar-item" activeClassName="active">
+          Contact
+        </Link>
+        {/* <a className="navbar-item" href="https://github.com/encodedobjects">
           GitHub
-        </a>
+        </a> */}
       </div>
     </div>
   );
