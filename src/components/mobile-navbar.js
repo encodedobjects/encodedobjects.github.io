@@ -12,9 +12,9 @@ export default function MobileNabar({ closeMenu }) {
         <Link to="/" exact className="navbar-item" activeClassName="active">
           Work
         </Link>
-        <Link to="/posts" className="navbar-item" activeClassName="active">
+        {/* <Link to="/posts" className="navbar-item" activeClassName="active">
           Posts
-        </Link>
+        </Link> */}
         <Link to="/cv" className="navbar-item" activeClassName="active">
           CV
         </Link>
