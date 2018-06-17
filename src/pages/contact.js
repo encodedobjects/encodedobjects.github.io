@@ -6,7 +6,7 @@ const About = () => (
       <div className="content is-medium">
         <h1>Get in Touch</h1>
         <p>
-          Interesting in our work? Or, maybe you just want to say hello? Drop us
+          Interested in our work? Or, maybe you just want to say hello? Drop us
           a line.
         </p>
 
