@@ -4,13 +4,13 @@
       "path---projects-shades-90f8984759dc635222b1.js",
       "path---projects-shades-90f8984759dc635222b1.js.map"
     ],
-    "path---projects-endless-horizons": [
-      "path---projects-endless-horizons-84ae3f5d46557ca6e77c.js",
-      "path---projects-endless-horizons-84ae3f5d46557ca6e77c.js.map"
-    ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-d30217d7d0de2b6ab904.js",
       "component---src-pages-index-js-d30217d7d0de2b6ab904.js.map"
+    ],
+    "path---projects-hot-and-sticky": [
+      "path---projects-hot-and-sticky-08b6f733079fb0ad8f5a.js",
+      "path---projects-hot-and-sticky-08b6f733079fb0ad8f5a.js.map"
     ],
     "path---cv": [
       "path---cv-a0e39f21c11f6a62c5ab.js",
@@ -23,6 +23,10 @@
     "component---src-pages-contact-js": [
       "component---src-pages-contact-js-1a28b61443a5d0fc1bbe.js",
       "component---src-pages-contact-js-1a28b61443a5d0fc1bbe.js.map"
+    ],
+    "path---projects-endless-horizons-archive": [
+      "path---projects-endless-horizons-archive-84ae3f5d46557ca6e77c.js",
+      "path---projects-endless-horizons-archive-84ae3f5d46557ca6e77c.js.map"
     ],
     "path---projects-currents-proposal": [
       "path---projects-currents-proposal-65f4382bd7520976a610.js",
@@ -41,8 +45,8 @@
       "path---posts-1f870a9c3471e964795c.js.map"
     ],
     "path---index": [
-      "path---index-8857e1b8954c66190c30.js",
-      "path---index-8857e1b8954c66190c30.js.map"
+      "path---index-074bb5cc8bff4c2a56f0.js",
+      "path---index-074bb5cc8bff4c2a56f0.js.map"
     ],
     "path---posts-test-post": [
       "path---posts-test-post-bb62ef0c74fc2cc64707.js",
@@ -77,9 +81,9 @@
       "component---src-templates-post-js-794c35ba3e87ed742f15.js.map"
     ],
     "app": [
-      "app-97913cddc9bf8f3ee5a0.js",
+      "app-b37d9b7be963fe6c3a83.js",
       "build-js-styles.css",
-      "app-97913cddc9bf8f3ee5a0.js.map",
+      "app-b37d9b7be963fe6c3a83.js.map",
       "build-js-styles.css.map"
     ],
     "path---projects-tethered-skies": [
