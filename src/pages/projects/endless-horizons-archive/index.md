@@ -4,7 +4,7 @@ subtitle: "Single-channel video installation, 2017"
 thumbnail: "./screenshot.png"
 date: "2017-10-15"
 draft: false
-unlisted: false
+unlisted: true
 ---
 
 <iframe src="https://player.vimeo.com/video/238242365" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -19,5 +19,5 @@ With the rapid flow and continuous accumulation of digital images in the cloud, 
 
 # Sources
 
-* [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams.shtml)
-* [Code repository](https://github.com/mikewesthad/buoy-analyzer)
+- [The National Buoy Data Center](http://www.ndbc.noaa.gov/buoycams.shtml)
+- [Code repository](https://github.com/mikewesthad/buoy-analyzer)
