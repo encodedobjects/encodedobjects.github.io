@@ -7,16 +7,17 @@ const About = () => (
       <div className="content is-medium">
         <h1>Information & Interactivity</h1>
         <p>
-          Encoded Objects explores how information and interactivity can augment
-          our understandings of image & object making. These investigations
-          re-envision our current conditions by considering the history of art
-          and information through a technological lens. Founding members{" "}
-          <a href="https://www.mikewesthad.com/">Mike Hadley</a> and{" "}
+          Encoded Objects is a collaboration between artists{" "}
           <a href="https://jonathanrockfordportfolio.weebly.com/">
             Jonathan Rockford
           </a>{" "}
-          integrate their varied experiences by merging the physical and digital
-          realms into singular works of art.
+          and <a href="https://www.mikewesthad.com/">Michael Hadley</a> that
+          explores our connection to the environment through the lens of
+          technology. Our investigations start with artifacts or recordings from
+          the environment that then lead to abstractions where the invisible and
+          the visible often swap roles. We combine our varied experiences by
+          merging the physical and digital realms of artmaking into unique forms
+          - from inflatable sculptures to projection mapped video installations.
         </p>
         <h1>Artist Bios</h1>
         <p>
