@@ -1,13 +1,13 @@
 ---
 title: "Splintered Horizons"
 subtitle: "Time-lapse digital print, 10\" x 10\" 2018"
-thumbnail: "./digital-shot.jpg"
+thumbnail: "./digital.jpg"
 date: "2017-10-16"
 draft: false
 unlisted: false
 ---
 
-![](digital-shot.jpg)
+![](digital.jpg)
 
 # Brief
 
