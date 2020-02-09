@@ -54,7 +54,7 @@ export default class Navbar extends React.Component {
 
         <div className="navbar-menu">
           <div className="navbar-end">
-            <Link to="/" exact className="navbar-item" activeClassName="active">
+            <Link to="/" className="navbar-item" activeClassName="active">
               Work
             </Link>
             {/* <Link to="/posts" className="navbar-item" activeClassName="active">

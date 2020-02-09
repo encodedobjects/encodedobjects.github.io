@@ -29,11 +29,13 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-layout`,
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-sharp",
       options: {
-        quality: 80
+        quality: 80,
+        stripMetadata: true
       }
     },
     {

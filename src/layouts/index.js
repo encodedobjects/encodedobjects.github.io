@@ -10,12 +10,12 @@ const Template = ({ children }) => (
   <div>
     <Helmet title="Encoded Objects" />
     <Navbar />
-    <main>{children()}</main>
+    <main>{children}</main>
   </div>
 );
 
 Template.propTypes = {
-  children: PropTypes.func
+  children: PropTypes.element
 };
 
 export default Template;

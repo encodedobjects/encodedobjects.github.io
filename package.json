@@ -3,26 +3,30 @@
   "description": "Encoded Objects Website",
   "version": "1.0.0",
   "dependencies": {
-    "bulma": "^0.7.1",
-    "gatsby": "^1.9.270",
-    "gatsby-cli": "^1.1.58",
-    "gatsby-link": "^1.6.44",
-    "gatsby-plugin-google-analytics": "^2.0.7",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-sharp": "^1.6.9",
+    "bulma": "^0.8.0",
+    "gatsby": "^2.19.12",
+    "gatsby-cli": "^2.8.29",
+    "gatsby-link": "^2.2.29",
+    "gatsby-plugin-google-analytics": "^2.1.35",
+    "gatsby-plugin-layout": "^1.1.22",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-remark-copy-images": "^0.2.1",
-    "gatsby-remark-copy-linked-files": "^1.5.35",
-    "gatsby-remark-images": "^1.5.18",
-    "gatsby-remark-responsive-iframe": "^1.4.19",
-    "gatsby-remark-smartypants": "^1.4.8",
-    "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.42",
-    "gatsby-transformer-sharp": "^1.6.26",
-    "gh-pages": "^1.2.0",
+    "gatsby-remark-copy-linked-files": "^2.1.37",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-remark-responsive-iframe": "^2.2.32",
+    "gatsby-remark-smartypants": "^2.1.21",
+    "gatsby-source-filesystem": "^2.1.48",
+    "gatsby-transformer-remark": "^2.6.50",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "gh-pages": "^2.2.0",
     "mdi": "^2.2.43",
-    "react-helmet": "^5.2.0",
-    "typeface-inconsolata": "0.0.54",
-    "velocity-react": "^1.4.1"
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "typeface-inconsolata": "0.0.72",
+    "velocity-react": "^1.4.3"
   },
   "scripts": {
     "clean": "rm -rf public .cache",
@@ -32,7 +36,7 @@
     "deploy": "gh-pages --dist public --branch master"
   },
   "devDependencies": {
-    "gatsby-plugin-sass": "^1.0.26",
-    "prettier": "^1.13.5"
+    "gatsby-plugin-sass": "^2.1.28",
+    "prettier": "^1.19.1"
   }
 }
