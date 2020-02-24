@@ -7,8 +7,20 @@ const Cv = () => (
       <div className="content is-medium">
         <h1>CV</h1>
         <div className="cv-section">
-          <div className="cv-section__title">Group Exhibitions</div>
+          <div className="cv-section__title">Public Art Projects</div>
           <div className="columns is-gapless">
+            <div className="column is-1 cv-section__year">2019</div>
+            <div className="column cv-section__list">
+              <li>
+              Penn State University, Campus Arts Initiative & the Materials
+              Research Institute, Millenium Science Complex, State College,
+              PA. Macroscope
+              </li>
+            </div>
+          </div>
+
+            <div className="cv-section__title">Group Exhibitions</div>
+            <div className="columns is-gapless">
             <div className="column is-1 cv-section__year">2018</div>
             <div className="column cv-section__list">
               <li>
