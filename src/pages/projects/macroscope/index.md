@@ -13,15 +13,13 @@ unlisted: false
 # Brief
 
 _Macroscope_ is a dynamic site-specific & site-responsive video installation
-made for Penn State University's [Materials Research Institute](https://www.mri.psu.edu/) through the
-generous support of the [Campus Arts Initiative](https://campusarts.psu.edu/) and Penn State’s Strategic
-Planning Seed Grant program.
-
-# Materials Research Institute
-
-Video documentation by Amir Aghareb:
+made for the [Materials Research Institute](https://www.mri.psu.edu/) through the
+generous support of the [Campus Arts Initiative](https://campusarts.psu.edu/) and
+Penn State University's Strategic Planning Seed Grant program.
 
 <iframe width="853" height="480" src="https://www.youtube.com/embed/DGBwmgwAojQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+(video documentation by Amir Aghareb)
 
 # Details
 
@@ -34,3 +32,13 @@ Every 9 - 10 minutes, a new 2D hexagonal crystal forms. The piece oscillates bet
 
 ![](./Macroscope_Interior_Growth_Amir.png)
 (photo credit - Amir Aghareb)
+
+# Site
+
+![](./MRI_Exterior_Jonathan.png)
+
+![](./MRI_Garden_Building_Exteriror_Jonathan.png)
+
+![](MRI_Building_Jonathan.png)
+
+![](MRI_Exterior_Night_Jonathan.png)
