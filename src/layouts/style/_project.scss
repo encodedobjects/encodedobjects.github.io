@@ -27,6 +27,10 @@
   figure {
     // Adjust figure margin's to match the image styling.
     margin: 1em 0;
+
+    figcaption {
+      font-family: $family-monospace;
+    }
   }
 
   img {
