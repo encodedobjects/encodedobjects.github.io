@@ -12,6 +12,7 @@ export default function IndexPage(props) {
             const fm = project.node.frontmatter;
             const path = project.node.fields.slug;
             const sharpImage = fm.thumbnail.childImageSharp;
+            const title = fm.title;
             return (
               <div className="column is-one-third">
                 <Link to={path}>
@@ -19,6 +20,7 @@ export default function IndexPage(props) {
                     <img
                       src={sharpImage.resolutions.src}
                       srcSet={sharpImage.resolutions.srcSet}
+                      alt={title}
                     />
                     <figcaption>{fm.title}</figcaption>
                   </figure>

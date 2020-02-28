@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "gatsby-link";
-import { VelocityTransitionGroup } from "velocity-react";
 
 export default function MobileNabar({ closeMenu }) {
   return (

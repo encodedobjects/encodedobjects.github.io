@@ -1,8 +1,7 @@
 import React from "react";
-import Link from "gatsby-link";
 
 export default function Posts(props) {
-  const posts = props.data.allMarkdownRemark.edges;
+  // const posts = props.data.allMarkdownRemark.edges;
 
   return (
     <div className="container">

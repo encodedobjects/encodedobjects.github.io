@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 
 const About = () => (
   <div className="container">
@@ -34,10 +33,9 @@ const About = () => (
           Jonathan Rockford lives and works in South Florida. With a background
           in sculpture, ceramics, fine-woodworking, and fibers processes, he is
           also intensely interested in the confluence of the physical and
-          digital in our daily lives. Jonathan teaches part-time, and can be 
-          found listening to audiobooks & podcasts while
-          working in the studio, cultivating his butterfly garden, or lounging
-          with feline friends.
+          digital in our daily lives. Jonathan teaches part-time, and can be
+          found listening to audiobooks & podcasts while working in the studio,
+          cultivating his butterfly garden, or lounging with feline friends.
         </p>
       </div>
     </section>
