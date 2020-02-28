@@ -2,7 +2,7 @@
 title: "Macroscope"
 subtitle: "Double-sided Site-specific Projection, 2019-2020"
 thumbnail: "./Macroscope_Exterior_Amir.png"
-date: "2018-03-12"
+date: "2020-01-01"
 draft: false
 unlisted: false
 ---
