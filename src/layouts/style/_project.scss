@@ -24,6 +24,11 @@
     }
   }
 
+  figure {
+    // Adjust figure margin's to match the image styling.
+    margin: 1em 0;
+  }
+
   img {
     display: block;
     margin: 0 auto;
