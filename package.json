@@ -11,6 +11,7 @@
     "gatsby-plugin-layout": "^1.1.22",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-remark-autolink-headers": "^2.3.11",
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.1.37",
     "gatsby-remark-images": "^3.1.44",
