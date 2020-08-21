@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Encoded Objects"
+    title: "Encoded Objects",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -9,8 +9,8 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: `${__dirname}/src/pages`
-      }
+        path: `${__dirname}/src/pages`,
+      },
     },
     {
       resolve: "gatsby-transformer-remark",
@@ -20,14 +20,15 @@ module.exports = {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 1200,
-              linkImagesToOriginal: true
-            }
+              linkImagesToOriginal: true,
+            },
           },
           "gatsby-remark-responsive-iframe",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants"
-        ]
-      }
+          "gatsby-remark-smartypants",
+          "gatsby-remark-autolink-headers",
+        ],
+      },
     },
     `gatsby-plugin-layout`,
     "gatsby-transformer-sharp",
@@ -35,8 +36,8 @@ module.exports = {
       resolve: "gatsby-plugin-sharp",
       options: {
         quality: 80,
-        stripMetadata: true
-      }
+        stripMetadata: true,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -47,8 +48,8 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true
-      }
-    }
-  ]
+        respectDNT: true,
+      },
+    },
+  ],
 };
