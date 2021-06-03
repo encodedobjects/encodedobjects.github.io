@@ -19,8 +19,8 @@ export default function IndexPage(props) {
                 <Link to={path}>
                   <figure style={{ textAlign: "center" }}>
                     <img
-                      src={sharpImage.resolutions.src}
-                      srcSet={sharpImage.resolutions.srcSet}
+                      src={sharpImage.fixed.src}
+                      srcSet={sharpImage.fixed.srcSet}
                       alt={title}
                     />
                     <figcaption>{fm.title}</figcaption>
@@ -53,7 +53,7 @@ export const query = graphql`
             title
             thumbnail {
               childImageSharp {
-                resolutions(width: 448, height: 252, cropFocus: ATTENTION) {
+                fixed(width: 448, height: 252, cropFocus: ATTENTION) {
                   src
                   srcSet
                 }
