@@ -1,4 +1,5 @@
 import React from "react";
+// import { graphql } from 'gatsby' 
 
 export default function Posts(props) {
   // const posts = props.data.allMarkdownRemark.edges;
@@ -37,35 +38,35 @@ export default function Posts(props) {
   );
 }
 
-export const query = graphql`
-  query PostQuery {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: {
-        fields: { type: { eq: "post" } }
-        frontmatter: { draft: { eq: false } }
-      }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            thumbnail {
-              childImageSharp {
-                resolutions(width: 448, height: 252, cropFocus: ATTENTION) {
-                  src
-                  srcSet
-                }
-              }
-            }
-            date(formatString: "MM/DD/YY")
-          }
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query PostQuery {
+//     allMarkdownRemark(
+//       sort: { fields: [frontmatter___date], order: DESC }
+//       filter: {
+//         fields: { type: { eq: "post" } }
+//         frontmatter: { draft: { eq: false } }
+//       }
+//     ) {
+//       edges {
+//         node {
+//           excerpt
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//             title
+//             thumbnail {
+//               childImageSharp {
+//                 fixed(width: 448, height: 252, cropFocus: ATTENTION) {
+//                   src
+//                   srcSet
+//                 }
+//               }
+//             }
+//             date(formatString: "MM/DD/YY")
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
