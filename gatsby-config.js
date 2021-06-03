@@ -3,6 +3,7 @@ module.exports = {
     title: "Encoded Objects",
   },
   plugins: [
+    `gatsby-plugin-image`,
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
     {
