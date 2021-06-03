@@ -35,6 +35,7 @@
     "clean": "rm -rf public .cache",
     "build": "gatsby build",
     "dev": "gatsby develop",
+    "start": "npm run dev",
     "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages --dist public --branch master"
   },
