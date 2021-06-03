@@ -1,0 +1,2 @@
+(self.webpackChunkencoded_objects=self.webpackChunkencoded_objects||[]).push([[986],{7253:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return s}});var c=t(7294);function s(e){return c.createElement("div",{className:"container"},c.createElement("section",{className:"section"},c.createElement("div",{className:"content is-medium"},c.createElement("h1",null,"Posts"),c.createElement("p",null,"Coming soon!"))))}}}]);
+//# sourceMappingURL=component---src-pages-posts-js-f397ff7d6b4f1856547f.js.map

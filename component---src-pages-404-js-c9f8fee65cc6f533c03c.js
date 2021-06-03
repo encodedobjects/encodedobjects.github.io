@@ -1,0 +1,2 @@
+(self.webpackChunkencoded_objects=self.webpackChunkencoded_objects||[]).push([[883],{9616:function(e,n,c){"use strict";c.r(n);var t=c(7294);n.default=function(){return t.createElement("div",{className:"container"},t.createElement("section",{className:"section"},t.createElement("div",{className:"content is-medium"},t.createElement("h1",null,"No such page found!"),t.createElement("p",null,"Much sadness :("))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-c9f8fee65cc6f533c03c.js.map
