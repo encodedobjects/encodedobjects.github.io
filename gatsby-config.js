@@ -3,6 +3,18 @@ module.exports = {
     title: "Encoded Objects",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Encoded Objects`,
+        short_name: `Encoded Objects`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#282828`,
+        display: `standalone`,
+        icon: "./static/favicon.png",
+      },
+    },
     `gatsby-plugin-image`,
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
