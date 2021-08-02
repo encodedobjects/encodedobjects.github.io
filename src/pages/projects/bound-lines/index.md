@@ -24,7 +24,7 @@ _Bounds Lines_ is currently in the juried show "Antillean Vision: Maps and the M
 
 # Motivation
 
-We began with the question of whether the data from historic ships' logs could be used as a drawing tool. Much like the exercise of drafting negative space rather than the object itself, we have decided to create images of the world by following the travels of early sailors as they traced their way around the globe - gradually feeling out the forms of our continents. Each individual thread represents the travels of an individual European ship from the 18th or 19th century. The visuals are generated computational from the [CLIWOC](http://pendientedemigracion.ucm.es/info/cliwoc/) dataset.
+We began with the question of whether the data from historic ships' logs could be used as a drawing tool. Much like the exercise of drafting negative space rather than the object itself, we have decided to create images of the world by following the travels of early sailors as they traced their way around the globe - gradually feeling out the forms of our continents. Each individual thread represents the travels of an individual European ship from the 18th or 19th century. The visuals are generated computationally from the [CLIWOC](http://pendientedemigracion.ucm.es/info/cliwoc/) dataset.
 
 # Sources
 
