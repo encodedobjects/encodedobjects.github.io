@@ -45,6 +45,12 @@ Every 9 - 10 minutes, a new 2D hexagonal crystal forms. The piece oscillates bet
   </figcaption>
 </figure>
 
+# Docuseries
+
+Learn more about the project in the The Material Research Institute's docuseries, "The Making of Macroscope:"
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed?listType=playlist&list=PLvnjQTHbVxUvmDKm81QUVlaAtxWahrjIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Site
 
 ![](./MRI_Exterior_Jonathan.png)
