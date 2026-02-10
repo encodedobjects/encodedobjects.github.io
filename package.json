@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "dependencies": {
     "bulma": "^0.9.2",
-    "gatsby": "^3.6.2",
-    "gatsby-cli": "^3.6.0",
+    "gatsby": "^5.16.0",
+    "gatsby-cli": "^5.16.0",
     "gatsby-link": "^3.6.0",
     "gatsby-plugin-google-analytics": "^3.6.0",
     "gatsby-plugin-image": "^1.6.0",
